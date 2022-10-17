@@ -18,7 +18,9 @@ const HALF_LIFE_PERIOD = 5730;
  *
  */
 function dateSample(iso) {
-  if (parseInt(iso) === NaN 
+  if (parseInt(iso) === NaN) {
+    
+  }
 }
 
 module.exports = {
